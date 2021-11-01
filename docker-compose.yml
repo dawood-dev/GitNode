@@ -1,0 +1,41 @@
+version: "3.9"
+services:
+  redis:
+    container_name: "redis"
+    image: redis
+    ports:
+      - "6379:6379"
+    network_mode: bridge
+  gitnode:
+    container_name: "gitnode"
+    build: .
+    image: gitnode
+    ports:
+      - "8080:8080"
+    network_mode: bridge
+    volumes:
+      - .:/code
+      - logvolume01:/var/log
+    links:
+      - redis
+    depends_on:
+      - redis
+  tests:
+    container_name: "gitnode_tests"
+    image: gitnode
+    command: npm run test
+    depends_on:
+      - redis
+      - gitnode
+    ports:
+      - "8081:8081"
+    network_mode: bridge
+    volumes:
+        - .:/test_code
+        - logvolume02:/var/test_log
+    links:
+        - redis
+
+volumes:
+  logvolume01: {}
+  logvolume02: {}
