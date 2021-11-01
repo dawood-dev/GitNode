@@ -1,0 +1,27 @@
+{
+  "name": "gitnode",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "EventEmitter": "^1.0.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-promise-router": "^4.1.0",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "redis": "^3.1.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "node-mocks-http": "^1.11.0",
+    "redis-mock": "^0.56.3",
+    "supertest": "^6.1.6"
+  }
+}
