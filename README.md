@@ -59,10 +59,11 @@ The provided date formats is required to be as ISO8601 (YYYY-MM-DD). Any others 
 * Write more unit and integration tests.
 
 <h1>License</h1>
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See "LICENSE" for more information.
 
 <h1>Contact</h1>
-Dawood Al-Masslawi [masslawi@gmail.com](masslawi@gmail)
+
+Dawood Al-Masslawi - [masslawi@gmail.com](masslawi@gmail)
 
 
 
