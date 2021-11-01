@@ -10,9 +10,9 @@ const commitUtils = require("../utils/commitUtils");
 
 const REDIS_PORT = 6379;
 // This is the url for containerized deployment.
-//const REDIS_URL = 'redis';
+const REDIS_URL = 'redis';
 // This is the url for local development and testing.
-const REDIS_URL = 'localhost';
+//const REDIS_URL = 'localhost';
 
 const getUsers = (req, res, next) => {
     let client = redis.createClient(REDIS_PORT,REDIS_URL);

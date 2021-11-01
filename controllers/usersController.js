@@ -10,9 +10,9 @@ const User = require ('../models/user')
 
 const REDIS_PORT = 6379
 // This is the url for containerized deployment.
-//const REDIS_URL = 'redis';
+const REDIS_URL = 'redis';
 // This is the url for local development and testing.
-const REDIS_URL = 'localhost';
+//const REDIS_URL = 'localhost';
 
 
 const getUsers = async (req, res, next) => {
