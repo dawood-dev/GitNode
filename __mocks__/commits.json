@@ -1,0 +1,249 @@
+[
+  {
+    "sha": "c94f5cf214387ebc11a03fa780d847ee2a001126",
+    "node_id": "MDY6Q29tbWl0NzYxNTI4MzU6Yzk0ZjVjZjIxNDM4N2ViYzExYTAzZmE3ODBkODQ3ZWUyYTAwMTEyNg==",
+    "commit": {
+      "author": {
+        "name": "cptera",
+        "email": "cptera@users.noreply.github.com",
+        "date": "2019-12-09T22:58:37Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-12-09T22:58:37Z"
+      },
+      "message": "Merge pull request #202 from teradici/update-gw-cert-on-redeploy\n\nUpdate Gateway Certificate on Re-deploy:",
+      "tree": {
+        "sha": "dfae9eed0f2272754a2da7bb2585339e51def46b",
+        "url": "https://api.github.com/repos/teradici/deploy/git/trees/dfae9eed0f2272754a2da7bb2585339e51def46b"
+      },
+      "url": "https://api.github.com/repos/teradici/deploy/git/commits/c94f5cf214387ebc11a03fa780d847ee2a001126",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJd7tGdCRBK7hj4Ov3rIwAAdHIIACOGunHdhJKZUVxesyGe2QNT\nU2AvABu33USMATl1E24QCRlUxVBHM/Jb5BbWIa4hnBVrWTkL7PRPYiZkfuYXg2OX\nGW2Dyk+fYfaCsZ3tKki0x+3ElK9B4CnCMd4nZlPJz9QkgV5o2DlPMv8Kp2Dc4Mos\nIMOzkE/RmqCtE4CkHnQIwT3yJzhF3Gl2SF345HGFo3IqWp4oI8L7LsYXnKQE2hYE\njijkmS43z7gB4seSw3XYEgRw9SzNpnA6SDZmOQslXbjiVsxr3CqOIqRvc8iTBlJm\npb724sKcP7rDeZQEvtothXwsbmAcytCHMRk/IkkUDHFBG5pHMrBKhXfaCf9PTmk=\n=utIO\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree dfae9eed0f2272754a2da7bb2585339e51def46b\nparent 2bd185f10100d5d747f864d2d60e33c8d1f8c8cc\nparent 1fb79057613719828a8b53728118eda02296778c\nauthor cptera <cptera@users.noreply.github.com> 1575932317 -0800\ncommitter GitHub <noreply@github.com> 1575932317 -0800\n\nMerge pull request #202 from teradici/update-gw-cert-on-redeploy\n\nUpdate Gateway Certificate on Re-deploy:"
+      }
+    },
+    "url": "https://api.github.com/repos/teradici/deploy/commits/c94f5cf214387ebc11a03fa780d847ee2a001126",
+    "html_url": "https://github.com/teradici/deploy/commit/c94f5cf214387ebc11a03fa780d847ee2a001126",
+    "comments_url": "https://api.github.com/repos/teradici/deploy/commits/c94f5cf214387ebc11a03fa780d847ee2a001126/comments",
+    "author": {
+      "login": "cptera",
+      "id": 25852542,
+      "node_id": "MDQ6VXNlcjI1ODUyNTQy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25852542?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cptera",
+      "html_url": "https://github.com/cptera",
+      "followers_url": "https://api.github.com/users/cptera/followers",
+      "following_url": "https://api.github.com/users/cptera/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cptera/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cptera/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cptera/subscriptions",
+      "organizations_url": "https://api.github.com/users/cptera/orgs",
+      "repos_url": "https://api.github.com/users/cptera/repos",
+      "events_url": "https://api.github.com/users/cptera/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cptera/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "2bd185f10100d5d747f864d2d60e33c8d1f8c8cc",
+        "url": "https://api.github.com/repos/teradici/deploy/commits/2bd185f10100d5d747f864d2d60e33c8d1f8c8cc",
+        "html_url": "https://github.com/teradici/deploy/commit/2bd185f10100d5d747f864d2d60e33c8d1f8c8cc"
+      },
+      {
+        "sha": "1fb79057613719828a8b53728118eda02296778c",
+        "url": "https://api.github.com/repos/teradici/deploy/commits/1fb79057613719828a8b53728118eda02296778c",
+        "html_url": "https://github.com/teradici/deploy/commit/1fb79057613719828a8b53728118eda02296778c"
+      }
+    ]
+  },
+  {
+    "sha": "2bd185f10100d5d747f864d2d60e33c8d1f8c8cc",
+    "node_id": "MDY6Q29tbWl0NzYxNTI4MzU6MmJkMTg1ZjEwMTAwZDVkNzQ3Zjg2NGQyZDYwZTMzYzhkMWY4YzhjYw==",
+    "commit": {
+      "author": {
+        "name": "cptera",
+        "email": "cptera@users.noreply.github.com",
+        "date": "2019-12-09T22:52:03Z"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "date": "2019-12-09T22:52:03Z"
+      },
+      "message": "Merge pull request #200 from teradici/make-cert-fetch-more-resilient\n\nMake cert fetch more resilient",
+      "tree": {
+        "sha": "ffc6b7fbfe34301949807b2d4cdbe34b1a008a5d",
+        "url": "https://api.github.com/repos/teradici/deploy/git/trees/ffc6b7fbfe34301949807b2d4cdbe34b1a008a5d"
+      },
+      "url": "https://api.github.com/repos/teradici/deploy/git/commits/2bd185f10100d5d747f864d2d60e33c8d1f8c8cc",
+      "comment_count": 0,
+      "verification": {
+        "verified": true,
+        "reason": "valid",
+        "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJd7tATCRBK7hj4Ov3rIwAAdHIIAIjd9vlII5b1gKe68deQcbNE\nMF222f3oiYP3XWF8/3REQXqr3gdjbTLamWXuNnJQ23G56QwAbSJJa3ey4KEZo/8u\nUvrACSINulh8R280Dqa1IANa5/auG/LMXJuh8SyR4F07qPOx4sna+vI4bAghDiUv\nx+h5BqsxJ14lA6RN/r1BmfIyPT1BH9IW05kwEkNm8Mts/g8bdzcXCzFbOP13popx\njDG+D4SPYSzE2NxKLQNLtRYaNUUldl2RWJtXU1D7Qi2oHYOCmmSt3Zit0Ib4uQ6l\nxDXWurm9+oiBTrhifMpSU4IQDiyI4NeXnODjDkIlsW9MuS15O4NSDYlblWav1rc=\n=3xhu\n-----END PGP SIGNATURE-----\n",
+        "payload": "tree ffc6b7fbfe34301949807b2d4cdbe34b1a008a5d\nparent 415c53bee5bbe93f1931e79a49d7447d38b2e162\nparent e10f9ec1fd80b5a5295fab81745129c8d53e608f\nauthor cptera <cptera@users.noreply.github.com> 1575931923 -0800\ncommitter GitHub <noreply@github.com> 1575931923 -0800\n\nMerge pull request #200 from teradici/make-cert-fetch-more-resilient\n\nMake cert fetch more resilient"
+      }
+    },
+    "url": "https://api.github.com/repos/teradici/deploy/commits/2bd185f10100d5d747f864d2d60e33c8d1f8c8cc",
+    "html_url": "https://github.com/teradici/deploy/commit/2bd185f10100d5d747f864d2d60e33c8d1f8c8cc",
+    "comments_url": "https://api.github.com/repos/teradici/deploy/commits/2bd185f10100d5d747f864d2d60e33c8d1f8c8cc/comments",
+    "author": {
+      "login": "cptera",
+      "id": 25852542,
+      "node_id": "MDQ6VXNlcjI1ODUyNTQy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25852542?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cptera",
+      "html_url": "https://github.com/cptera",
+      "followers_url": "https://api.github.com/users/cptera/followers",
+      "following_url": "https://api.github.com/users/cptera/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cptera/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cptera/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cptera/subscriptions",
+      "organizations_url": "https://api.github.com/users/cptera/orgs",
+      "repos_url": "https://api.github.com/users/cptera/repos",
+      "events_url": "https://api.github.com/users/cptera/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cptera/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "web-flow",
+      "id": 19864447,
+      "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/web-flow",
+      "html_url": "https://github.com/web-flow",
+      "followers_url": "https://api.github.com/users/web-flow/followers",
+      "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+      "organizations_url": "https://api.github.com/users/web-flow/orgs",
+      "repos_url": "https://api.github.com/users/web-flow/repos",
+      "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/web-flow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "415c53bee5bbe93f1931e79a49d7447d38b2e162",
+        "url": "https://api.github.com/repos/teradici/deploy/commits/415c53bee5bbe93f1931e79a49d7447d38b2e162",
+        "html_url": "https://github.com/teradici/deploy/commit/415c53bee5bbe93f1931e79a49d7447d38b2e162"
+      },
+      {
+        "sha": "e10f9ec1fd80b5a5295fab81745129c8d53e608f",
+        "url": "https://api.github.com/repos/teradici/deploy/commits/e10f9ec1fd80b5a5295fab81745129c8d53e608f",
+        "html_url": "https://github.com/teradici/deploy/commit/e10f9ec1fd80b5a5295fab81745129c8d53e608f"
+      }
+    ]
+  },
+  {
+    "sha": "1fb79057613719828a8b53728118eda02296778c",
+    "node_id": "MDY6Q29tbWl0NzYxNTI4MzU6MWZiNzkwNTc2MTM3MTk4MjhhOGI1MzcyODExOGVkYTAyMjk2Nzc4Yw==",
+    "commit": {
+      "author": {
+        "name": "Charanpreet Parmar",
+        "email": "cparmar@teradici.com",
+        "date": "2019-12-09T20:36:49Z"
+      },
+      "committer": {
+        "name": "Charanpreet Parmar",
+        "email": "cparmar@teradici.com",
+        "date": "2019-12-09T20:36:49Z"
+      },
+      "message": "Update Gateway Certificate on Re-deploy:\n* Update the self signed Gateway cert in the KeyVault on re-deploy",
+      "tree": {
+        "sha": "adec273dd1790e0d390b474254a49466e13d738c",
+        "url": "https://api.github.com/repos/teradici/deploy/git/trees/adec273dd1790e0d390b474254a49466e13d738c"
+      },
+      "url": "https://api.github.com/repos/teradici/deploy/git/commits/1fb79057613719828a8b53728118eda02296778c",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/teradici/deploy/commits/1fb79057613719828a8b53728118eda02296778c",
+    "html_url": "https://github.com/teradici/deploy/commit/1fb79057613719828a8b53728118eda02296778c",
+    "comments_url": "https://api.github.com/repos/teradici/deploy/commits/1fb79057613719828a8b53728118eda02296778c/comments",
+    "author": {
+      "login": "cptera",
+      "id": 25852542,
+      "node_id": "MDQ6VXNlcjI1ODUyNTQy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25852542?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cptera",
+      "html_url": "https://github.com/cptera",
+      "followers_url": "https://api.github.com/users/cptera/followers",
+      "following_url": "https://api.github.com/users/cptera/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cptera/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cptera/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cptera/subscriptions",
+      "organizations_url": "https://api.github.com/users/cptera/orgs",
+      "repos_url": "https://api.github.com/users/cptera/repos",
+      "events_url": "https://api.github.com/users/cptera/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cptera/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "cptera",
+      "id": 25852542,
+      "node_id": "MDQ6VXNlcjI1ODUyNTQy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25852542?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cptera",
+      "html_url": "https://github.com/cptera",
+      "followers_url": "https://api.github.com/users/cptera/followers",
+      "following_url": "https://api.github.com/users/cptera/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cptera/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cptera/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cptera/subscriptions",
+      "organizations_url": "https://api.github.com/users/cptera/orgs",
+      "repos_url": "https://api.github.com/users/cptera/repos",
+      "events_url": "https://api.github.com/users/cptera/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cptera/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "415c53bee5bbe93f1931e79a49d7447d38b2e162",
+        "url": "https://api.github.com/repos/teradici/deploy/commits/415c53bee5bbe93f1931e79a49d7447d38b2e162",
+        "html_url": "https://github.com/teradici/deploy/commit/415c53bee5bbe93f1931e79a49d7447d38b2e162"
+      }
+    ]
+  }
+]
